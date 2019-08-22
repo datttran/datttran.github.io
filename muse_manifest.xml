@@ -1,35 +1,53 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="datttran.github.io" resolutions="1x" timestamp="1566458670965">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="datttran.github.io" resolutions="1x" timestamp="1566517517289">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4053683616" ref="index"/>
-    <file name="iefonts_index.css" crc="4143679090" ref="index"/>
+    <file name="index.css" crc="531276799" ref="index"/>
+    <file name="iefonts_index.css" crc="4077000529" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="340535759" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="4286661555" ref="index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u1026.php" crc="154415851" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
+    <file name="68612326_506963040072567_9098590901759901696_n.jpg" crc="529969653" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="gma---heroshot---feb-27.jpg" crc="4223892226" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u1033.png" crc="119811083" ref="index"/>
+    <file name="u1033-ferr.png" crc="161063516" ref="index"/>
+    <file name="u1038.png" crc="169624056" ref="index"/>
+    <file name="u1038-r.png" crc="4161408044" ref="index"/>
+    <file name="u1029.png" crc="4089925645" ref="index"/>
+    <file name="u1029-ferr.png" crc="3879477236" ref="index"/>
+    <file name="u1114.png" crc="227045473" ref="index"/>
+    <file name="u1114-ferr.png" crc="3806186180" ref="index"/>
+    <file name="u1140-4.png" crc="216656524" ref="index"/>
     <file name="single-image-u362-fr.png" crc="149574796" ref="index"/>
     <file name="u809-4.png" crc="505960032" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u393.png" crc="4174461922" ref="index"/>
-    <file name="u393-r.png" crc="4268017980" ref="index"/>
-    <file name="u378.png" crc="4072235927" ref="index"/>
-    <file name="u378-r.png" crc="4110664455" ref="index"/>
-    <file name="u371.png" crc="4053632496" ref="index"/>
-    <file name="u371-r.png" crc="303841237" ref="index"/>
-    <file name="u387.png" crc="4104479024" ref="index"/>
-    <file name="u387-r.png" crc="4218938575" ref="index"/>
-    <file name="u401.png" crc="212146338" ref="index"/>
-    <file name="u401-r.png" crc="4260014909" ref="index"/>
+    <file name="u393.png" crc="3982720623" ref="index"/>
+    <file name="u393-r.png" crc="4120093876" ref="index"/>
+    <file name="u378.png" crc="4105554163" ref="index"/>
+    <file name="u378-r.png" crc="4200481252" ref="index"/>
+    <file name="u371.png" crc="3922792366" ref="index"/>
+    <file name="u371-r.png" crc="4162292816" ref="index"/>
+    <file name="u387.png" crc="4150568933" ref="index"/>
+    <file name="u387-r.png" crc="4102044611" ref="index"/>
     <file name="u678.png" crc="321456993" ref="index"/>
     <file name="u678-r.png" crc="244913031" ref="index"/>
     <file name="u701.png" crc="3768813554" ref="index"/>
@@ -37,19 +55,13 @@
     <file name="u711.png" crc="4213191749" ref="index"/>
     <file name="u711-r.png" crc="527804250" ref="index"/>
     <file name="novaland-logo-u721.png" crc="87702276" ref="index"/>
-    <file name="68612326_506963040072567_9098590901759901696_n.jpg" crc="529969653" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="gma---heroshot---feb-27.jpg" crc="4223892226" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="background-ss1-u305-fr.jpg" crc="4037538477" ref="index"/>
     <file name="background-ss1.jpg" crc="203463986" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="novaland-nvl-1020x685.jpg" crc="70054215" ref="index">
+    <file name="phoi-canh-tong-the-du-an-aqua-city-dong-nai.jpg" crc="3924885399" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="172291755" seo="true" mt="1566455133621" redirect="true"/>
+  <file name="index.html" crc="3858973017" seo="true" mt="1566517476759" redirect="true"/>
 </manifest>
