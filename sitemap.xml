@@ -6,4 +6,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>http://datttran.github.io/untitled-3.html</loc>
+    <lastmod>2019-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://datttran.github.io/images/71ohr3vmw7l_sl1500_.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://datttran.github.io/assets/1566398145722642.pdf</loc>
+    <lastmod>2019-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
