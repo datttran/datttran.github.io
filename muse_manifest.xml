@@ -1,12 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="datttran.github.io" resolutions="1x" timestamp="1566525403734">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="datttran.github.io" resolutions="1x" timestamp="1567626701397">
   <folder name="css">
     <file name="site_global.css" crc="373709799"/>
-    <file name="index.css" crc="4251253622" ref="index"/>
-    <file name="iefonts_index.css" crc="3979542075" ref="index"/>
     <file name="untitled-3.css" crc="3795379415" ref="untitled-3"/>
-  </folder>
-  <folder name="assets">
-    <file name="1566398145722642.pdf" crc="4189259323" seo="true" mt="1566514646000"/>
+    <file name="index.css" crc="124185642" ref="index"/>
+    <file name="iefonts_index.css" crc="3979542075" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:untitled-3"/>
@@ -90,6 +87,6 @@
       <caption webpage="untitled-3" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="462363221" seo="true" mt="1566524385034" redirect="true"/>
+  <file name="index.html" crc="164156011" seo="true" mt="1567626680312" redirect="true"/>
   <file name="untitled-3.html" crc="218693155" seo="true" mt="1566525389330" redirect="true"/>
 </manifest>

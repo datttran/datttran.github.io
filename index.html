@@ -16,7 +16,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Musefree.com</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=373709799"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4251253622" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=124185642" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3979542075"/>
@@ -115,7 +115,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="colelem" id="u366"><!-- simple frame --></div>
         <div class="colelem" id="u364"><!-- simple frame --></div>
        </div>
-       <a class="nonblock nontext anim_swing rgba-background rounded-corners shadow clearfix colelem" id="u806" href="index.html#mid"><!-- group --><img class="grpelem" id="u809-4" alt="GET STARTED" width="99" height="21" src="images/u809-4.png?crc=505960032"/><!-- rasterized frame --></a>
+       <div class="clearfix colelem" id="pu1729-3"><!-- group -->
+        <a class="nonblock nontext rgba-background rounded-corners shadow clearfix grpelem" id="u1729-3" href="https://www.dropbox.com/s/agf5qjk9sznwhry/DAT_BOI-%20impv.pdf?dl=0"><!-- content --><p>&nbsp;</p></a>
+        <img class="grpelem" id="u809-4" alt="GET STARTED" width="99" height="21" src="images/u809-4.png?crc=505960032"/><!-- rasterized frame -->
+       </div>
       </div>
      </div>
     </div>
@@ -214,15 +217,15 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('#widgetu1026', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1026 */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u174').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1987.05]},{"speed":[0,0],"in":[1987.05,Infinity]}]);/* scroll effect */
-$('#u362').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,347.65]},{"speed":[0,0],"in":[347.65,Infinity]}]);/* scroll effect */
-$('#u198-4').registerPositionScrollEffect([{"speed":[-1,1],"in":[-Infinity,1458.9]},{"speed":[0,1],"in":[1458.9,Infinity]}]);/* scroll effect */
-$('#u302-4').registerPositionScrollEffect([{"speed":[1,1],"in":[-Infinity,926]},{"speed":[0,1],"in":[926,Infinity]}]);/* scroll effect */
-$('#u305').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1262.7]},{"speed":[0,1],"in":[1262.7,Infinity]}]);/* scroll effect */
-$('#u305').registerOpacityScrollEffect([{"in":[-Infinity,1262.7],"opacity":0,"fade":50},{"in":[1262.7,1262.7],"opacity":50},{"in":[1262.7,Infinity],"opacity":100,"fade":50}]);/* scroll effect */
-$('#u321').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,815.9]},{"speed":[1,1],"in":[815.9,Infinity]}]);/* scroll effect */
-$('#u325').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,815.9]},{"speed":[-1,1],"in":[815.9,Infinity]}]);/* scroll effect */
-$('#u367-4').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,724.45]},{"speed":[0,2],"in":[724.45,Infinity]}]);/* scroll effect */
+$('#u174').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1987.05],"speed":[0,0]},{"in":[1987.05,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u362').registerBackgroundPositionScrollEffect([{"in":[-Infinity,347.65],"speed":[0,0]},{"in":[347.65,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u198-4').registerPositionScrollEffect([{"in":[-Infinity,1458.9],"speed":[-1,1]},{"in":[1458.9,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u302-4').registerPositionScrollEffect([{"in":[-Infinity,926],"speed":[1,1]},{"in":[926,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u305').registerPositionScrollEffect([{"in":[-Infinity,1262.7],"speed":[0,2]},{"in":[1262.7,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u305').registerOpacityScrollEffect([{"fade":50,"in":[-Infinity,1262.7],"opacity":0},{"in":[1262.7,1262.7],"opacity":50},{"fade":50,"in":[1262.7,Infinity],"opacity":100}]);/* scroll effect */
+$('#u321').registerPositionScrollEffect([{"in":[-Infinity,815.9],"speed":[0,1]},{"in":[815.9,Infinity],"speed":[1,1]}]);/* scroll effect */
+$('#u325').registerPositionScrollEffect([{"in":[-Infinity,815.9],"speed":[0,1]},{"in":[815.9,Infinity],"speed":[-1,1]}]);/* scroll effect */
+$('#u367-4').registerPositionScrollEffect([{"in":[-Infinity,724.45],"speed":[0,1]},{"in":[724.45,Infinity],"speed":[0,2]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
