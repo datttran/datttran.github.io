@@ -1,92 +1,38 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="datttran.github.io" resolutions="1x" timestamp="1567626963983">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="esharp.com" resolutions="1x" timestamp="1568796652239">
   <folder name="css">
-    <file name="site_global.css" crc="373709799"/>
-    <file name="untitled-3.css" crc="3795379415" ref="untitled-3"/>
-    <file name="index.css" crc="124185642" ref="index"/>
-    <file name="iefonts_index.css" crc="3979542075" ref="index"/>
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="211818436" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:untitled-3"/>
-    <file name="museutils.js" crc="340535759" ref="index:untitled-3"/>
-    <file name="whatinput.js" crc="86476730" ref="index:untitled-3"/>
-    <file name="museconfig.js" crc="4286661555" ref="index:untitled-3"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:untitled-3"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:untitled-3"/>
-    <file name="webpro.js" crc="4059564322" ref="index:untitled-3"/>
-    <file name="form_check.php" crc="4020933626" ref="index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="index"/>
-    <file name="form_process.php" crc="37464564" ref="index"/>
-    <file name="form-u1026.php" crc="154415851" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
     <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:untitled-3"/>
-    <file name="require.js" crc="7928878" ref="index:untitled-3"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="untitled-3"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="untitled-3"/>
-    <file name="touchswipe.js" crc="4075097462" ref="untitled-3"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="68612326_506963040072567_9098590901759901696_n.jpg" crc="529969653" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="gma---heroshot---feb-27.jpg" crc="4223892226" ref="index:untitled-3">
-      <caption webpage="index" alt=""/>
-      <caption webpage="untitled-3" alt=""/>
-    </file>
+    <file name="bgio.jpg" crc="3919146552" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u1033.png" crc="119811083" ref="index"/>
-    <file name="u1033-ferr.png" crc="161063516" ref="index"/>
-    <file name="u1038.png" crc="169624056" ref="index"/>
-    <file name="u1038-r.png" crc="4161408044" ref="index"/>
-    <file name="u1029.png" crc="4089925645" ref="index"/>
-    <file name="u1029-ferr.png" crc="3879477236" ref="index"/>
-    <file name="u1114.png" crc="227045473" ref="index"/>
-    <file name="u1114-ferr.png" crc="3806186180" ref="index"/>
-    <file name="u1140-4.png" crc="216656524" ref="index"/>
-    <file name="single-image-u362-fr.png" crc="149574796" ref="index"/>
-    <file name="u809-4.png" crc="505960032" ref="index"/>
-    <file name="u393.png" crc="3982720623" ref="index"/>
-    <file name="u393-r.png" crc="4120093876" ref="index"/>
-    <file name="u378.png" crc="4105554163" ref="index"/>
-    <file name="u378-r.png" crc="4200481252" ref="index"/>
-    <file name="u371.png" crc="3922792366" ref="index"/>
-    <file name="u371-r.png" crc="4162292816" ref="index"/>
-    <file name="u387.png" crc="4150568933" ref="index"/>
-    <file name="u387-r.png" crc="4102044611" ref="index"/>
-    <file name="u678.png" crc="321456993" ref="index"/>
-    <file name="u678-r.png" crc="244913031" ref="index"/>
-    <file name="u701.png" crc="3768813554" ref="index"/>
-    <file name="u701-r.png" crc="300063403" ref="index"/>
-    <file name="u711.png" crc="4213191749" ref="index"/>
-    <file name="u711-r.png" crc="527804250" ref="index"/>
-    <file name="novaland-logo-u721.png" crc="87702276" ref="index"/>
-    <file name="background-ss1-u305-fr.jpg" crc="4037538477" ref="index"/>
-    <file name="background-ss1.jpg" crc="203463986" ref="index:untitled-3">
+    <file name="u606.png" crc="3982720623" ref="index"/>
+    <file name="u606-r.png" crc="4120093876" ref="index"/>
+    <file name="u591.png" crc="4105554163" ref="index"/>
+    <file name="u591-r.png" crc="4200481252" ref="index"/>
+    <file name="u598.png" crc="3922792366" ref="index"/>
+    <file name="u598-r.png" crc="4162292816" ref="index"/>
+    <file name="u612-4-a.png" crc="4150568933" ref="index"/>
+    <file name="teacher-new.svg" crc="265999522" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="phoi-canh-tong-the-du-an-aqua-city-dong-nai.jpg" crc="3924885399" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="71ohr3vmw7l_sl1500_.png" crc="236036214" seo="true" ref="untitled-3">
-      <caption webpage="untitled-3" alt=""/>
-    </file>
-    <file name="u1647-4.png" crc="4096690926" ref="untitled-3"/>
-    <file name="kisspng-arrow-computer-icons-font-awesome-up-arrow-5ac5a188f1dec39689141815229013849907-u1650.png" crc="230663746" ref="untitled-3"/>
-    <file name="kisspng-arrow-computer-icons-font-awesome-up-arrow-5ac5a188f1dec39689141815229013849907-u1660.png" crc="230663746" ref="untitled-3"/>
-    <file name="kisspng-arrow-computer-icons-font-awesome-up-arrow-5ac5a188f1dec39689141815229013849907-u1677.png" crc="230663746" ref="untitled-3"/>
-    <file name="source.gif" crc="416294007" ref="untitled-3">
-      <caption webpage="untitled-3" alt=""/>
-    </file>
-    <file name="walkingcat.gif" crc="378692368" ref="untitled-3">
-      <caption webpage="untitled-3" alt=""/>
-    </file>
-    <file name="source2.gif" crc="3857135500" ref="untitled-3">
-      <caption webpage="untitled-3" alt=""/>
-    </file>
-    <file name="vtv---phoi-canh-biet-thu-don-lap---jan-3.jpg" crc="454599855" ref="untitled-3">
-      <caption webpage="untitled-3" alt=""/>
-    </file>
+    <file name="teacher new_poster_.png" crc="4116327673" ref="index"/>
+    <file name="u616.png" crc="321456993" ref="index"/>
+    <file name="u616-r.png" crc="244913031" ref="index"/>
+    <file name="u618.png" crc="3768813554" ref="index"/>
+    <file name="u618-r.png" crc="300063403" ref="index"/>
+    <file name="u620.png" crc="4213191749" ref="index"/>
+    <file name="u620-r.png" crc="527804250" ref="index"/>
   </folder>
-  <file name="index.html" crc="3758417464" seo="true" mt="1567626947406" redirect="true"/>
-  <file name="untitled-3.html" crc="218693155" seo="true" mt="1566525389330" redirect="true"/>
+  <file name="index.html" crc="41219587" seo="true" mt="1568796618085" redirect="true"/>
 </manifest>
