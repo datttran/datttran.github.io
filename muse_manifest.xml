@@ -1,38 +1,30 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="esharp.com" resolutions="1x" timestamp="1568796652239">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="esharp.com" resolutions="1x" timestamp="1568868730212">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="211818436" ref="index"/>
+    <file name="index.css" crc="4130800917" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="340535759" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="4286661555" ref="index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="bgio.jpg" crc="3919146552" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u606.png" crc="3982720623" ref="index"/>
-    <file name="u606-r.png" crc="4120093876" ref="index"/>
-    <file name="u591.png" crc="4105554163" ref="index"/>
-    <file name="u591-r.png" crc="4200481252" ref="index"/>
-    <file name="u598.png" crc="3922792366" ref="index"/>
-    <file name="u598-r.png" crc="4162292816" ref="index"/>
-    <file name="u612-4-a.png" crc="4150568933" ref="index"/>
-    <file name="teacher-new.svg" crc="265999522" seo="true" ref="index">
+    <file name="bgio.png" crc="3909010659" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="teacher new_poster_.png" crc="4116327673" ref="index"/>
-    <file name="u616.png" crc="321456993" ref="index"/>
-    <file name="u616-r.png" crc="244913031" ref="index"/>
-    <file name="u618.png" crc="3768813554" ref="index"/>
-    <file name="u618-r.png" crc="300063403" ref="index"/>
-    <file name="u620.png" crc="4213191749" ref="index"/>
-    <file name="u620-r.png" crc="527804250" ref="index"/>
+    <file name="u1529-4.png" crc="4061106118" ref="index"/>
+    <file name="es.png" crc="280633811" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="female-teacher.svg" crc="506411270" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="female teacher_poster_.png" crc="4104263691" ref="index"/>
+    <file name="bg layer2.jpg" crc="4230927873" ref="index"/>
   </folder>
-  <file name="index.html" crc="41219587" seo="true" mt="1568796618085" redirect="true"/>
+  <file name="index.html" crc="4114208823" seo="true" mt="1568868711437" redirect="true"/>
 </manifest>

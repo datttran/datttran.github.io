@@ -6,7 +6,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://esharp.com/images/teacher-new.svg</image:loc>
+      <image:loc>http://esharp.com/images/es.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://esharp.com/images/female-teacher.svg</image:loc>
     </image:image>
   </url>
 </urlset>
