@@ -17,102 +17,200 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4246768344" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4067530596" id="pagesheet"/>
     <!--HTML Widget code-->
   
-		<style>
-		
-
-		#menu {
-			height: 100%;
-			position: fixed;
-			background-color: #B378EF;
-			width: 300px;
-			transition: 1000ms all cubic-bezier(0.19, 1, 0.22, 1);
-			transform: translateX(-100%);
-			left: 60px;
-		}
-
-		#menu.expanded {
-			transform: translateX(0%);
-			left: 0px;
-		}
-
-		.menu-inner {
-			width: 100%;
-			height: 100%;
-			position: relative;
-		}
-
-		#blob {
-			top: 0;
-			z-index: -1;
-			right: 60px;
-			transform: translateX(100%);
-			height: 100%;
-			position: absolute;
-            width: 200px;
-		}
-
-		#blob-path {
-			height: 100%;
-			fill:  #B378EF;
-		}
-
-		.hamburger {
-			right: 20px;
-			position: absolute;
-			width: 20px;
-			height: 15px;
-			margin-top: calc(-15px / 2);	
-		}
-
-		.hamburger .line {
-			width: 100%;
-			height: 4px;
-			background-color: #FFFFFF;
-			position: absolute;
-            border-radius: 20px;
-		}
-
-.hamb{padding-top:12px;}
-        .posterline{
-            display:block;
-            margin: 5px auto 0 auto;
-            width: 60%;
-			height: 2px;
-			background-color: #FFFFFF;
-            border-radius: 20px;
-        }
-
-		.hamburger .line:nth-child(2) {
-			top: 50%;
-			margin-top: calc(-4px / 2);
-		}
-
-		.hamburger .line:nth-child(3) {
-			bottom: 0;
-		}
-
-		.textClass {
-			padding: 0;
-			list-style: none;
-			width: 80%;
-			margin-left: 10%;
-			position: absolute;
-			top: 30px;
-		}
-
-		.textClass .lineClass {
-			color: #FFFFFF;
-			padding: 20px 0;
-		}
-        .linkClass {
-            color: #FFFFFF !important;
-            text-decoration:none !important;
-        }
-        
+	<style>
+	.particle {width: 3094px; height: 2419px;}
+	</style>
+	
+	
+<style>
+.m_scroll_arrows { display: block; width: 5px; height: 5px; -ms-transform: rotate(45deg); /* IE 9 */ -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */ transform: rotate(45deg); border-right: 2px solid #FFFFFF; border-bottom: 2px solid #FFFFFF; margin: 0 0 3px 4px; width: 16px; height: 16px; }
+.unu { margin-top: 1px; }
+.unu, .doi, .trei { -webkit-animation: mouse-scroll 1s infinite; -moz-animation: mouse-scroll 1s infinite; }
+.unu { -webkit-animation-delay: .1s; -moz-animation-delay: .1s; -webkit-animation-direction: alternate; }
+.doi { -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -webkit-animation-direction: alternate; margin-top: -6px; }
+.trei { -webkit-animation-delay: .3s; -moz-animation-delay: .3s; -webkit-animation-direction: alternate; margin-top: -6px; }
+.mouse { height: 42px; width: 24px; border-radius: 14px; transform: none; border: 2px solid #FFFFFF; top: 170px; }
+.wheel { height: 5px; width: 2px; display: block; margin: 5px auto; background: white; position: relative; height: 4px; width: 4px; border: 2px solid #FFFFFF; -webkit-border-radius: 8px; border-radius: 8px; }
+.wheel { -webkit-animation: mouse-wheel 0.6s linear infinite; -moz-animation: mouse-wheel 0.6s linear infinite; }
+ @-webkit-keyframes mouse-wheel {
+ 0% {
+ opacity: 1;
+ -webkit-transform: translateY(0);
+ -ms-transform: translateY(0);
+ transform: translateY(0);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: translateY(6px);
+ -ms-transform: translateY(6px);
+ transform: translateY(6px);
+}
+}
+ @-moz-keyframes mouse-wheel {
+ 0% {
+top: 1px;
+}
+ 25% {
+top: 2px;
+}
+ 50% {
+top: 3px;
+}
+ 75% {
+top: 2px;
+}
+ 100% {
+top: 1px;
+}
+}
+ @-webkit-keyframes mouse-scroll {
+ 0% {
+opacity: 0;
+}
+ 50% {
+opacity: .5;
+}
+ 100% {
+opacity: 1;
+}
+}
+@-moz-keyframes mouse-scroll {
+ 0% {
+opacity: 0;
+}
+ 50% {
+opacity: .5;
+}
+ 100% {
+opacity: 1;
+}
+}
+@-o-keyframes mouse-scroll {
+ 0% {
+opacity: 0;
+}
+ 50% {
+opacity: .5;
+}
+ 100% {
+opacity: 1;
+}
+}
+@keyframes mouse-scroll {
+ 0% {
+opacity: 0;
+}
+ 50% {
+opacity: .5;
+}
+ 100% {
+opacity: 1;
+}
+}
 </style>
+
+		<style>
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.u1922 {
+  background-image:  url(assets/trans.png);
+  -webkit-text-fill-color: transparent;
+background-size:cover;
+  -webkit-background-clip: text;
+  animation: filling 3s ease forwards;
+}
+</style>
+	
+<style>
+html, body {overflow-x: hidden !important;}   
+html, body {overflow-y:hidden !important;}  
+</style>
+
+
+
+<style type="text/css">
+ #u1957 { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAA+CAIAAADVpMCUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkZWRmN2NiOS1lNjEzLTQ0NDgtYjZmMi0xMzkwZmM1MzEzMWQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkU5RjIwNUI3QjRGMTFFNDlGRDY4MEMxMTc5MjQxMzgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkU5RjIwNUE3QjRGMTFFNDlGRDY4MEMxMTc5MjQxMzgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZTA4MGIzOS1hOTQ2LTRhOGEtOWZiMi1lZWFhY2U0MmQ0MmUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo1M2UzYjdlMC1jMzliLTExNzctYWJjOC1lOTVhYzZkMjU1NTYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz66v+RVAAASGUlEQVRo3u1ae3BUVZo/59xHdychD/IgkJgESIaHCQ9rFsEsLrMOosi4ta5VDrUuVatV625ZWJQ1rqKWW+Jfq1tFubpllQVu7Sxag7i4yopVugzyEBnRAQREHoEgJCFJ59mPdPe955z9vnNOd3oQ0jwShR0Pzc3te899/L7n7/tO093P/koSSimRksJHSBhMEviqPoLCWb0vBO7AwDkCvuJBNUnPxA/sn4j17htsi/IUucRYNK307xfVbviPIdslXBJP4FbfCp4l1DPUy+BkvcH7M9yHw1QdZIR8ljzBiSDXNuxgEG8nBDFQ8A04iEAo8IhdmBOInGu5qJeThHM1B2SBt9AzSKNdNq2geHvvmWOx3os+0uOiN4x3TfnUQ2h4uXoElUoEGreWCfyBJ0ialjM8RZ0fINFrB4/4Xds8SQzrUuEAkCh4VAg1FiHTesbXkcoctNqVOVDClWokCUn3FxPrG2N9H3SeTgj/gkcGXSsc5gDDEwhHGOnjAzgqVwqFmWg7UBYhjSEo/aid83yAjMawHVehovBUrVXQOUnbI6Ha8pU41OM1ZnhDZqTPlV8oQ8AX51RwqS11RlFJRSC0ueNkZzKe/cjKwmC4VyY4QoG5QhuXVILQl6JEzLsIbQlp/FQJyCf+gIiODn5b4YcHW0bzROHXDzR2LvXbUWosEE8JoewSbYEoE+BC+mgCcATchKJRsKq80N/VzNzU0fJNtC/zyIriwNeHPTyvPIurpxhDULaFz6Npe6TK/jP4UQWkg/eQURq25aSfgwZvwONDaDr4oBgURoyT6PwYFYQ087X9c7wMYKMLeBRPckQGxwOWvaKmYeO5loODPVqB0aj0OfGliqAUJ+NEpW0dC7ja4kNoWiXDxo9OOCAGRw1/QWFBor+PWBahFtFRgMq0F2RtMm9A03ISWirKW9RbC05RFjahHEIjBTPVrmz77G8nN2zpCGzragdAtnRjSUEZ5XgPmEU405avpMCICbImCqqEo7yeKnfsEV2SyFHDXzTn9lLJB08fSQ6Evfig7QSMk2XEoPRPaRp+OjJpJ0eFmECIUYD4VFhoBdyX1EaLEKBoRsGf/7K6Bm762+6OZMRNyART4ZIriXMV4Xg6mJoMaNxe0mHLp1x6UREhozesdw+Wdg4Jd8LUpj+ZZbkh6UUIH2K2BUAtS38Ig62N+7ZFLEYsm+COTeE4gx04y9QRZnYYozYFBWOWZgy/MomCq88r9ELi7FkmCPMIat5Hd0Hv8VH5QgUFqTiIVMYkhnOhyrPdvEOMRtrLDNq85B99wjhlBUWhX/6s8pc/rw/0dca/3S+5B9LReketS60E3KVmN5OUMEZhXITgj2kdAQkEBMZNpadYgw8WgfMTnnz/dKQt5oF9cE2sFMNQJpA2e+P/KjDSdEwmMiYHomKAjOqwbmpYCEmABJyYtA5+O/DB5o2B4gmzfrrQcV0R72FMMgv+KTUqc4AdCvsUj+BXivvwB7dG51SLCXTOMvYLl6io4VBaVeAcHkgNCaVtEJE0lAIUr0O9UToxaV9nYY8kB0UvGe1hTZr+Z8J2JIggFBDBAp/ZR/d/9v4nn5fdVD95xlyHeiTezRxboUVkVG3RpBVQQEy1CJRh4MaSxvKVacA0nU5QDBD1JBnnWPk2PdQ/JDRyqSxfGr6bleyHwy5Q5H7RRcZgWBNn3EFcR4C23QANBPziKil8Gunce+DrAy3nZt3SXDaxVsbDVKQQqta8lUZOtC1o5CY6GofR9AX+Cx28qMkaikHUFjhdCb81miB0mF5ncAuD2XgZR7bTLUfV7bP037iYO5CSgiTgkkCABIN+5RR4vBPp7Okd+J9PftcZ5QsW3sn8QZIapAYr0frVOlegMELgNwkeY0IDHpAqLkgdMtIGDflRkJlFwV1dkQTGNcN8ZJYIMsMn3uCYgUf8lbOXSNelCrwMoAlQEMGkn9CCYuf8cZhx6mzHx3sP1s2cX11dJyNnaVoClGT+G3xG1cZ0FUEQNIvHIh2i5gimicqQvbMzZluXfDlPJiIyTEYv218M/5y7CdQAboC4IAKXBQMgCAbuUFGTavoZjfTYA13xRHLXvq9EoLBxdjNN9hI/YfKCJnTg5DQd56SSjCoKFXEF+0eGZ0SAx0EEaleSmjz3eCTZnfStzN2yRlz2D8kBMsbDmjD3HoXcISCCgKtNAAIedR3qBnj9XL/mZtrbQaN9h46d3nPo5G0L78qzkiTRS6nNDDNWpm6YsnJ1FceFruMgy0FyE1hQ6zI5U8mBDOryAx91DAYslv1OgviDossnSTL2w6r86S8AM3EQPwUp2A51ALnDbMV4LCYKy1KNzakps0l/VzzcuWX73ulzFlRXVMjYeZ3rqFE7SZdGKpxxqivCdIFMzVldJisHgm8TQs7paLIz4VmGYMqEjMRkrxxLm/9D/c+7V9pK+Y6F4EHtoHzbZpDuNN1DlsfkuGJv5m3RutlWILhn64dy/JS5M6bySDtNF0wkq3jCgI6FsNI217LQzJaabkY6u4F8ygLOju6ow9Dbo7LHIwn9ZkuXLj1x4sSY46+Y9xeY/EEEsHVspLU2fqTFmM7yyIGQv0JapwVFqZqZ4cY//yYm2qJWc/1NdvQ85m9du+ngpzxf6q1PdBUI+1z3F4SpplSygFm0OuTu7x/o9HoSMpqt9kcffTQej585c2ZM8WtgamvKfngpHIqOqdaAMMUQNb0YGXTd2KTp69xZq3tmeBPnqUwoTWma0b9K9CLdsUGgw+0F3Ndf4bqYz2cWW5680NsDgcDDDz9cUlIytvjTFMvwLl17SC44CkFyDrGLS2wJCl2ZqKyGZ0ss8b/9zqqexqGqRZT7IlOv6doNZ5uunTCNJNNjyxC9DMn709Iyh7Hvvtz69etXrVo1xvo33T/UFsCFwh3AqWYO7PjC14JA8FJoy1DyQOKOmW1XH/lV15ShqfdCAJOqPSpNUTPc0xoua9LxkdDsXp4sdtyaUP53X27nzp1DQ0N33nnnVQDLz8+vr69vbm7OUf+rt+TAR4iGbQnm+0KzekjrwG89atybSUX0pdTtcq1DSraGWThZ+V91zeLkpyAx3RTD2lXFP9VHTreYDBVOt3mF/oMxdH5p2alY5LtB/9VXX127du2BAwe6ui7O/y3LKi8vnzhxYmVl5UQ19M64ceP0hCVLloyEH18GuzdcAFzOqUdNXwNDA5cZogOoLTAWJYBMpEcFywJJvuyTd8Rq3q+LOWf2+1zqWtj0hdIBz+RCbhihzGprwZGpeeNClh3nFzaLo9Ho66+//vjjj69evbqgoEDDgzFp0iSNE8CDCDLzI5FIR0fH/v3729vbb7nllrq6ulz6x76vEL6PpQylhssoWp/O0wqJhfhxAga7THWjEpwgtpSHh+jDrZN/Xd5P2lopNzW9ovVKwoKpVjodZvnZkZKQcjdYFgh8G/dVT9auqKgIhULLli3TIKdOnfree+9BRByuC3y/s7Pz3LlzX3zxRYca58+fhy2kjMycCRMmVFVV5cIP7wUIsB3Hpa5jSbq1RdOrLZYkliCWNgqa6X2omEeVXklAyk+66T+x6WsK+hPdfdrzAbbgmvYrd5CaEWYtqEjplJe5kyaOKy35h6U/t8YXa5XqJsvKlStxqWNgALAlEonDhw9rkLDt7u6WMgdHCgaDED5y41dWylHPnl7zMBlaB3vAJ2xI35ZSPtO1rLFbRfBV0ENFW1z+pt2ZXjf7r6w9fjIlfLVGoDOhz9SqmU6gNLO8A//H33dvaApaaZHvt7W3t7a27t27N6NSGDkxXGq4UMUIkdv+df5WcZ1hR45wRQd8nfJV2AfFC6LAE2xhSOMpJBPsqc6bCUlePDOuoebm6X2/x/UcTf450wsbIt3fzKwbwnG7pHio9dtz//720Y72fztzZBRzm+M4ED5y5X9TumKk1gs/mP/AHDAdcOn5nPvS96TniZTHUz5P4Y7+cA9OcoGZkkuVOIXHB1P++k8PiaoqP+HrBTKO/R3gDCq9SkWIVQLlqt3tFBUmOroTfYN5zKbXgLapqWnBggXZR/Ly8jg+I5f9q96D6lZJodvemLeYkgQ1q30CibAKZUhUdPzTnQ5N5NSCFbOqrfNlH/9nm++/GWj66wmFqXCcgPOoFV7shXPTEcAlM2UCdkkRmFUi3KeMjQWYlRD8ctCCb8+fP7+hoSEWi7311ltwBLJ9diJA3TKWU/82pj2EJw0XNhWoTBMZCLVcwn3RjjV74Qo5VfGdmksYyy+QVS3b8w5/pu/74WeHmpYvbkjFdQeIYyOY6Ra3SHd44YauoreJ7t6Uj52CQstNiIt7O8TFxsZGAAyJYNGiRQcPHrznnntOnjx56tQpPeHdd9+94BLIl319fTn5D3YliVl7TiemdANSuTbVK/Nox7rdZQEKi5jDtDifFvceHbdnmxX/g5WJtZt++68rlvEvW4nlQmTFxXIF28QC5fxWSTHMjHX3e5B/BXOZlVEd6HPOnDkQ/LZs2QJHbr/99lmzZrW0tEDm271797PPPrtmzZqzZ8+O5NuMpVKpHP4vlFkjVMYynQnTvJLDeS7TisZ05uNyt5WfVzg+rzbRctOOdcWf/vcF4LF75fM17+/Ir630h0RSLfjpZT9cFhBqCdDD4IekpavXQ5Hai5bdDcRGhy5AuHz5cpauCzZu3PjMM8+88cYbkPahKHzppZeee+45yPAjYAMGAVkzB36/aaaorZPBEJq0ZQOxkD43C6JgufAVVKN+IUJdlxXku8BM6utKK4I1p7bXfri2ZM871mD4UnfvCPevb20hwZDwMeZ5BGKl9DiIhqQ8AkJxxhcD9Yr3RTxBkim/9if18NJwYTKZXLFiBSQ/sPaL3vn48eMvv/zy888/X1paOkL+A2PJYf/j+k/EJs8lkycJ4sJjEWh8iHgeCt6xIdtZQIosizqOnYqFulvzDx8OtR+zo5e7FLH7q5PT7yibHNF1I9ML+9r5Id+6pcVD4f4UUgiRlOL1f/6XmPAu885Ah9atWwde8PTTTwNHumj+g+iYA3/5p7+Bj18wngo/WTIpVVqtyL0QTlA50JAz2O32tDmR8FVnpnXb9j6x6PbgySGpfmOgKJBOgSRYWhLt6OLqFxUx7iclv6I7A/kFewErANe4ACokCP0rhdzxD/8ofebFB/PavhmLMnvDoYN/U3Mz605pTql/9gGEOji+sPOrY6pQID1IGK64z79r1y4QwXNqgNdk/bADoWWXAyP2P8Z4dPQMfDxw1rMpOr8guqkCzIcyFg/3cyRD8stYx9Xd/KOPPgLKDCagMWfIjy6Trgv8MPafOvv7vAGumiS+Nv4yTP7Rrl4wirA/1O3Hr/rmkPyPHTv2xBNPZPKF5kK54z/5Hsf2r48fLIkmkh6ABxGEyooV/j5Pio+jp8W19bzffPPNnp6exx57TNeOWv/ZHjGS/39v45Nvjre4hbflVxexQEjpv6Pz/AeDxwf5Fax2QGIrKysbP358mRqlasAOED5Q+8KFC3fu3Kl9IXf+I9/7OJsa3Jj6eqJTUFV8t+d5v2793RVdDiwQct6RI0d0FwB0fvr0ab2TnQJ0syRn/PsB8JuI6EXzykuAzF3RVfPmzXvooYcikciGDRuOHj06coGElXzu+u+HG7pL+dprr11qQnl5efZXYIT3338/qL2wsHD16tUjc5v8fGwo5+Y/PyD+trY2xkYKwNnc9q677mpuboaCD1RaVFQE25FrW6h8Kioqcte/PyD+J598cuQJGdO47777br311lWrVule2AMPPFBbW/viiy+OcO20adOAF2eq4+si/13dePDBB2fPng30LtMIPHHiRENDw8hXQTro7c1dpFzv+B955JHq6uoXXnghO5ND8QdlMuS/ES6cOnUq5IUbHj+kMbDzC9I4eDUUfxd0+y4YM2fOvJzl8+sa/zvvvPPKK69ctIbbsWPHCAtbkFaampo+//zzGxv/tm3bLrXIAacgfUJcuOjZpUuXHjp0CBjRDW//lxoQDjZt2gTRIbvm0wOyI9AE3RT+f4sfxubNm4EFrFy5kmb9fMxxnKeeeuorNS7nJhbEyRsUP8SFffv2LV++fP78+e3t7VBKQM4HTgEigHyRs/LRg17drwuunxEKhYAOLV68GBJ+OBzeunXr22+/DbK4zMtvePzXOBj54x4/4v8R/4/4/3jH/wFRECcqIEfoiQAAAABJRU5ErkJggg=="); background-repeat: no-repeat;background-size: contain;top: -4300px;
+  
+ 
+ 
+</style>
+
+
+
+
+	
+	 <style>
+.u1991 {width: 374px; height: 356px; -webkit-font-smoothing: antialiased; }
+.u1991:after, .u1991:before { content: ""; border-radius: 100%; position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-transform-origin: center center; -ms-transform-origin: center center; transform-origin: center center; }
+.u1991:after { box-shadow: inset 0 17.5px 0 rgba(250, 250, 0, 0.6), inset 17.5px 0 0 rgba(250, 200, 0, 0.6), inset 0 -17.5px 0 rgba(250, 150, 0, 0.6), inset -17.5px 0 0 rgba(250, 100, 0, 0.6); -webkit-animation: rotar 2s -0.5s linear infinite; animation: rotar 2s -0.5s linear infinite; }
+.u1991:before { box-shadow: inset 0 17.5px 0 rgba(0, 250, 250, 0.6), inset 17.5px 0 0 rgba(0, 200, 200, 0.6), inset 0 -17.5px 0 rgba(0, 150, 200, 0.6), inset -17.5px 0 0 rgba(0, 200, 250, 0.6); -webkit-animation: rotarIz 2s -0.5s linear infinite; animation: rotarIz 2s -0.5s linear infinite; }
+@-webkit-keyframes rotar {
+ 0% {
+ -webkit-transform: rotateZ(0deg) scaleX(1) scaleY(1);
+ transform: rotateZ(0deg) scaleX(1) scaleY(1);
+}
+ 50% {
+ -webkit-transform: rotateZ(180deg) scaleX(0.82) scaleY(0.95);
+ transform: rotateZ(180deg) scaleX(0.82) scaleY(0.95);
+}
+ 100% {
+ -webkit-transform: rotateZ(360deg) scaleX(1) scaleY(1);
+ transform: rotateZ(360deg) scaleX(1) scaleY(1);
+}
+}
+@keyframes rotar {
+ 0% {
+ -webkit-transform: rotateZ(0deg) scaleX(1) scaleY(1);
+ transform: rotateZ(0deg) scaleX(1) scaleY(1);
+}
+ 50% {
+ -webkit-transform: rotateZ(180deg) scaleX(0.82) scaleY(0.95);
+ transform: rotateZ(180deg) scaleX(0.82) scaleY(0.95);
+}
+ 100% {
+ -webkit-transform: rotateZ(360deg) scaleX(1) scaleY(1);
+ transform: rotateZ(360deg) scaleX(1) scaleY(1);
+}
+}
+@-webkit-keyframes rotarIz {
+ 0% {
+ -webkit-transform: rotateZ(0deg) scaleX(1) scaleY(1);
+ transform: rotateZ(0deg) scaleX(1) scaleY(1);
+}
+ 50% {
+ -webkit-transform: rotateZ(-180deg) scaleX(0.95) scaleY(0.85);
+ transform: rotateZ(-180deg) scaleX(0.95) scaleY(0.85);
+}
+ 100% {
+ -webkit-transform: rotateZ(-360deg) scaleX(1) scaleY(1);
+ transform: rotateZ(-360deg) scaleX(1) scaleY(1);
+}
+}
+@keyframes rotarIz {
+ 0% {
+ -webkit-transform: rotateZ(0deg) scaleX(1) scaleY(1);
+ transform: rotateZ(0deg) scaleX(1) scaleY(1);
+}
+ 50% {
+ -webkit-transform: rotateZ(-180deg) scaleX(0.95) scaleY(0.85);
+ transform: rotateZ(-180deg) scaleX(0.95) scaleY(0.85);
+}
+ 100% {
+ -webkit-transform: rotateZ(-360deg) scaleX(1) scaleY(1);
+ transform: rotateZ(-360deg) scaleX(1) scaleY(1);
+}
+}
+	 </style>
 	
 <style>
 
@@ -271,28 +369,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="browser_width grpelem" id="u387-bw">
      <div class="rounded-corners" id="u387"><!-- group -->
       <div class="clearfix" id="u387_align_to_page">
-       <div class="clearfix grpelem" id="pu1136"><!-- group -->
-        <div class="clearfix grpelem" id="u1136"><!-- group -->
-         <div class="rgba-background rounded-corners clearfix grpelem" id="u820"><!-- group -->
-          <div class="rounded-corners clearfix grpelem" id="u704-13" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content -->
-           <h1 id="u704-2"><span id="u704">Lorem</span></h1>
-           <h1 id="u704-5"><span id="u704-3">Ipsum</span><span id="u704-4"></span></h1>
-           <p id="u704-11"><span id="u704-6">dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet arcu tempor, scelerisque lacus consectetur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lacus consectetur</span><span id="u704-7">facilisis tellus</span><span id="u704-8">. Fusce metus augue, sollicitudin non sapien in, malesuada elementum sem. Cras eget tortor aliquet, dignissim neque sit amet, porttitor purus. Phasellus eget luctus ipsum, a </span><span id="u704-9">cursus</span><span id="u704-10"> tellus. Cras dignissim lorem hendrerit, sollicitudin diam et, feugiat velit. Aenean facilisis accumsan egestas. Integer quis gravida turpis. Etiam fringilla quam ac lectus vulputate imp</span></p>
-          </div>
+       <div class="clearfix grpelem" id="u1136"><!-- group -->
+        <div class="rgba-background rounded-corners clearfix grpelem" id="u820"><!-- group -->
+         <div class="rounded-corners clearfix grpelem" id="u704-15" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content -->
+          <h1 id="u704-2"><span id="u704">Lorem</span></h1>
+          <h1 id="u704-5"><span id="u704-3">Ipsum</span><span id="u704-4"></span></h1>
+          <p id="u704-13"><span id="u704-6">dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet arcu tempor, scelerisque lacus consectetur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lacus consectetur</span><span id="u704-7">facilisis tellus</span><span id="u704-8">. Fusce metus augue, sollicitudin non sapien in, malesuada elementum sem. Cras ege</span><span id="u704-9">t tortor aliquet, dignissim neque sit amet, porttitor pur</span><span id="u704-10">us. Phasellus eget luctus ipsum, a </span><span id="u704-11">cursus</span><span id="u704-12"> tellus. Cras dignissim lorem hendrerit, sollicitudin diam et, feugiat velit. Aenean facilisis accumsan egestas. Integer quis gravida turpis. Etiam fringilla quam ac lectus vulputate imp</span></p>
          </div>
         </div>
-        <div class="rgba-background rounded-corners grpelem" id="u1569"><!-- simple frame --></div>
-        <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1613"><!-- group -->
-         <a class="block" href="start"><!-- Block link tag --></a>
-         <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1526" href="start"><!-- group --><img class="grpelem" id="u1529-4" alt="GET START " src="images/u1529-4.png?crc=4061106118" data-image-width="176"/><!-- rasterized frame --></a>
-        </div>
        </div>
-       <div class="rounded-corners clearfix grpelem" id="u773"><!-- group -->
+       <div class="rgba-background rounded-corners clearfix grpelem" id="u773"><!-- group -->
         <div class="clip_frame grpelem" id="u857" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter"><!-- image -->
          <img class="block" id="u857_img" src="images/es.png?crc=280633811" alt="" data-heightwidthratio="0.5688487584650113" data-image-width="443" data-image-height="252"/>
-        </div>
-        <div class="teacher clip_frame grpelem" id="u1718" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter"><!-- svg -->
-         <img class="svg svg_mar" id="u1713" src="images/female-teacher.svg?crc=534826146" onload="this.style.height=(this.offsetWidth*378.3199105145413/386.9771167048057)+'px'" alt="" data-mu-svgfallback="images/female%20teacher_poster_.png?crc=260444248" data-heightwidthratio="0.9767441860465116" data-image-width="387" data-image-height="378"/>
         </div>
        </div>
       </div>
@@ -301,34 +389,94 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="browser_width grpelem" id="u1629-bw">
      <div class="museBGSize" id="u1629"><!-- simple frame --></div>
     </div>
+    <div class="browser_width grpelem" id="u1745-bw">
+     <div class="rgba-background" id="u1745"><!-- simple frame --></div>
+    </div>
     <div class="browser_width grpelem" id="u1688-bw">
-     <div id="u1688"><!-- simple frame --></div>
+     <div class="shadow" id="u1688"><!-- simple frame --></div>
+    </div>
+    <div class="size_fixed grpelem" id="u1856" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+     
+	<div class="particle"></div>
+	
+    </div>
+    <div class="rgba-background rounded-corners grpelem" id="u1569"><!-- simple frame --></div>
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1613"><!-- group -->
+     <a class="block" href="start"><!-- Block link tag --></a>
+     <a class="nonblock nontext anim_swing rounded-corners clearfix grpelem" id="u1526" href="index.html#about"><!-- group --><img class="grpelem" id="u1529-4" alt="GET START " src="images/u1529-4.png?crc=4061106118" data-image-width="176"/><!-- rasterized frame --></a>
+    </div>
+    <div class="teacher clip_frame grpelem" id="u1718" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter"><!-- svg -->
+     <img class="svg svg_mar" id="u1713" src="images/female-teacher.svg?crc=534826146" onload="this.style.height=(this.offsetWidth*378.3199105145413/386.9771167048057)+'px'" alt="" data-mu-svgfallback="images/female%20teacher_poster_.png?crc=260444248" data-heightwidthratio="0.9767441860465116" data-image-width="387" data-image-height="378"/>
+    </div>
+    <div class="size_fixed grpelem" id="u1913" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+     
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<div class="mouse">
+			<div class="wheel"></div>
+		</div>
+		<div>
+			<span class="m_scroll_arrows unu"></span>
+			<span class="m_scroll_arrows doi"></span>
+			<span class="m_scroll_arrows trei"></span>
+		</div>
+
+    </div>
+    <div class="size_fluid_width grpelem" id="u1922" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- custom html -->
+     
+ <div class="u1922">
+    EDUCATION
+</div>
+
+    </div>
+    <a class="anchor_item grpelem" id="top" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    <a class="anchor_item grpelem" id="about" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    <div class="size_fixed grpelem" id="u1957" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+     
+ 
+<!--
+ 
+  ________  ________  ________  ________  _______   _______       ________  ________  _____ ______      
+|\   __  \|\   __  \|\   __  \|\   __  \|\  ___ \ |\  ___ \     |\   ____\|\   __  \|\   _ \  _   \    
+\ \  \|\  \ \  \|\  \ \  \|\  \ \  \|\  \ \   __/|\ \   __/|    \ \  \___|\ \  \|\  \ \  \\\__\ \  \   
+ \ \  \\\  \ \  \\\  \ \  \\\  \ \  \\\  \ \  \_|/_\ \  \_|/__   \ \  \    \ \  \\\  \ \  \\|__| \  \  
+  \ \  \\\  \ \  \\\  \ \  \\\  \ \  \\\  \ \  \_|\ \ \  \_|\ \ __\ \  \____\ \  \\\  \ \  \    \ \  \ 
+   \ \_____  \ \_______\ \_______\ \_____  \ \_______\ \_______\\__\ \_______\ \_______\ \__\    \ \__\
+    \|___| \__\|_______|\|_______|\|___| \__\|_______|\|_______\|__|\|_______|\|_______|\|__|     \|__|
+          \|__|                         \|__|                                                          
+-->
+
+
+
+    </div>
+    <div class="teacher size_fixed grpelem" id="u1991" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+     
+<div class="u1991"></div>	
     </div>
    </div>
-   <div class="size_fluid_width" id="u1486" data-sizePolicy="fluidWidth" data-pintopage="topleft"><!-- custom html -->
-    
- <div id="menu">
-		<div class="hamburger">
-			<div class="line"></div>
-			<div class="line"></div>
-			<div class="line"></div>
-		</div>
-		<div class="menu-inner">
-			
-			<ul class="textClass">
-<li class="lineClass" id="menuLink1"><a class="linkClass" href="#">Menu Item</a></li>
-<li class="lineClass" id="menuLink1"><a class="linkClass" href="#">Menu Item</a></li>
-<li class="lineClass" id="menuLink1"><a class="linkClass" href="#">Menu Item</a></li>
-<li class="lineClass" id="menuLink1"><a class="linkClass" href="#">Menu Item</a></li>
-			</ul>
-		</div>
-		<svg version="1.1" id="blob"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-			<path id="blob-path" d="M60,500H0V0h60c0,0,20,172,20,250S60,900,60,500z"/>
-		</svg>
-	</div>
-
+   <div class="clearfix" id="u2210"><!-- group -->
+    <div class="clearfix" id="u2174"><!-- group -->
+     <div class="rgba-background rounded-corners clearfix" id="u2096"><!-- group -->
+      <div class="clearfix" id="u2075"><!-- group -->
+       <div class="clearfix" id="u2046"><!-- group -->
+        <a class="nonblock nontext anim_swing rounded-corners" id="u2026" href="index.html#top"><!-- simple frame --></a>
+        <a class="nonblock nontext anim_swing rounded-corners" id="u2008" href="index.html#about"><!-- simple frame --></a>
+        <div class="rounded-corners" id="u2037"><!-- simple frame --></div>
+        <div class="rounded-corners" id="u2043"><!-- simple frame --></div>
+       </div>
+       <div class="clearfix" id="u2049"><!-- group -->
+        <div class="rounded-corners" id="u2053"><!-- simple frame --></div>
+        <div class="rounded-corners" id="u2051"><!-- simple frame --></div>
+        <div class="rounded-corners" id="u2052"><!-- simple frame --></div>
+        <div class="rounded-corners" id="u2050"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div id="u2199"><!-- simple frame --></div>
+     <div id="u2089"><!-- simple frame --></div>
+     <div id="u2086"><!-- simple frame --></div>
+    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="2313" data-content-above-spacer="2312" data-content-below-spacer="155" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="2418" data-content-above-spacer="2418" data-content-below-spacer="155" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="size_fixed grpelem" id="u388" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
     
             
@@ -370,97 +518,94 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-<script>
-$(window).load(function(){
-	var height = window.innerHeight,
-    x= 0, y= 200,
-	curveX = 10,
-	curveY = 0,
-	targetX = 0,
-	xitteration = 0,
-	yitteration = 0,
-	menuExpanded = false;
-	
-	blob = $('#blob'),
-	blobPath = $('#blob-path'),
-
-	hamburger = $('.hamburger');
-    
-    $('.lineClass a:empty').parent().hide()
-
-	$(this).on('mousemove', function(e){
-		x = e.pageX;
+		<script>
+	$(function(){
+		$(".particle").jParticle({
+			background: 'rgba(152,76,255, 0)',
+			color: '#93D4FD',
+			particlesNumber: 100,
+		});
+	});
+	</script>
+	<script>
+	!function(e){"use strict";var t,n;n={},e.fn.jParticle=function(n){return this.each(function(i,a){"object"==typeof a.sandbox&&e(a).removeJParticle(),a.sandbox=t(a,n)}),this},e.fn.removeJParticle=function(){return this.each(function(e,t){t.sandbox&&(t.sandbox.remove(),delete t.sandbox)}),this},e.fn.freezeJParticle=function(){return this.each(function(e,t){t.sandbox&&t.sandbox.freeze()}),this},e.fn.unfreezeJParticle=function(){return this.each(function(e,t){t.sandbox&&t.sandbox.unfreeze()}),this},t=function(t,i){var a,o;return a={},a.canvas={},a.mouse={},a.particles=[],a.isAnimated=!1,a.initialize=function(e,t){a.initParams(t),a.initHTML(e),a.initParticles(),a.initEvents(),a.initAnimation()},a.initParams=function(t){t&&t.color&&(!t.particle||t.particle&&!t.particle.color)&&(t.particle||(t.particle={}),t.particle.color=t.color),a.params=e.extend({particlesNumber:100,linkDist:50,createLinkDist:150,disableLinks:!1,disableMouse:!1,width:null,height:null,linksWidth:1},t)},a.initHTML=function(t){var n;n=a.canvas,n.container=e(t),n.element=e("<canvas/>"),n.context=n.element.get(0).getContext("2d"),n.container.append(n.element),n.element.css("display","block"),n.element.get(0).width=a.params.width?a.params.width:n.container.width(),n.element.get(0).height=a.params.height?a.params.height:n.container.height(),n.element.css("background",a.params.background)},a.resize=function(e,t){e&&(canvas.element.get(0).width=e),t&&(canvas.element.get(0).height=t)},a.initParticles=function(){var e,t;for(e=0,t=a.params.particlesNumber;t>e;e+=1)a.particles.push(o(a.canvas.element.get(0),a.params.particle))},a.initEvents=function(){a.canvas.element.mouseenter(function(){a.mouse.hoverCanvas=!0,a.isAnimated||a.draw()}),a.canvas.element.mouseleave(function(){a.mouse.hoverCanvas=!1}),a.canvas.element.mousemove(function(t){a.mouse=e.extend(a.mouse,n.getMousePosition(t,a.canvas.element[0]))})},a.initAnimation=function(){window.requestAnimFrame=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.ORequestAnimationFrame||window.msRequestAnimationFrame||function(e){setTimeOut(e,1e3/60)},a.isAnimated=!0,a.draw()},a.draw=function(){var e,t,n,i,o,r;for(e=0,n=a.particles.length,i=a.canvas,i.context.clearRect(0,0,i.element.get(0).width,i.element.get(0).height);n>e;e+=1)if(o=a.particles[e],a.isAnimated&&o.update(),o.draw(),!a.params.disableMouse&&a.mouse.hoverCanvas&&a.drawLink(o.getPosition("x"),o.getPosition("y"),a.mouse.x,a.mouse.y),!a.params.disableLinks)for(t=e+1;n>t;t+=1)r=a.particles[t],a.drawLink(o.getPosition("x"),o.getPosition("y"),r.getPosition("x"),r.getPosition("y"));a.requestID=window.requestAnimFrame(a.draw)},a.drawLink=function(e,t,i,o){var r;n.getDistance(e,t,i,o)<=a.params.createLinkDist&&(r=a.canvas.context,r.save(),r.beginPath(),r.lineWidth=a.params.linksWidth,r.moveTo(e,t),r.lineTo(i,o),r.globalAlpha=a.getOpacityLink(e,t,i,o),r.strokeStyle=a.params.color,r.lineCap="round",r.stroke(),r.closePath(),r.restore())},a.getOpacityLink=function(e,t,i,o){var r,s,c,u;return r=n.getDistance(e,t,i,o),c=a.params.linkDist,u=a.params.createLinkDist,s=c>=r?1:r>u?0:1-100*(r-c)/(u-c)/100},a.freeze=function(){a.isAnimated&&(a.isAnimated=!1)},a.unfreeze=function(){a.isAnimated||(a.isAnimated=!0)},a.remove=function(){a.canvas.element.remove()},o=function(t,i){var a;return a={},a.canvas={},a.vector={},a.initialize=function(t,n){a.params=e.extend({color:"white",minSize:2,maxSize:4,speed:60},n),a.setCanvasContext(t),a.initSize(),a.initPosition(),a.initVectors()},a.initPosition=function(){a.x=n.getRandNumber(0+a.radius,a.canvas.element.width-a.radius),a.y=n.getRandNumber(0+a.radius,a.canvas.element.height-a.radius)},a.initSize=function(){a.size=n.getRandNumber(a.params.minSize,a.params.maxSize),a.radius=a.size/2},a.initVectors=function(){do a.vector.x=n.getRandNumber(-a.params.speed/60,a.params.speed/60,!1),a.vector.y=n.getRandNumber(-a.params.speed/60,a.params.speed/60,!1);while(0==a.vector.x||0==a.vector.y)},a.setCanvasContext=function(e){var t;if(a.canvas.element=e,t=e.getContext("2d"),"object"!=typeof t||"object"!=typeof t.canvas)throw"Error: Can't set canvas context to Particle because context isn't a CanvasRenderingContext2D object.";a.canvas.context=t},a.draw=function(){var e=a.canvas.context;e.beginPath(),e.arc(a.x,a.y,a.size/2,0,2*Math.PI),e.fillStyle=a.params.color,e.fill(),e.closePath()},a.update=function(){a.x+=a.vector.x,a.y+=a.vector.y,(0>a.x-a.radius||a.x+a.radius>a.canvas.element.width)&&(a.vector.x=-a.vector.x),(0>a.y-a.radius||a.y+a.radius>a.canvas.element.height)&&(a.vector.y=-a.vector.y)},a.getPosition=function(e){return"string"==typeof e&&"x"!=e&&"y"!=e&&(e=null),"string"==typeof e?a[e]:{x:a.x,y:a.y}},a.initialize(t,i),{getPosition:a.getPosition,update:a.update,draw:a.draw}},a.initialize(t,i),{remove:a.remove,freeze:a.freeze,unfreeze:a.unfreeze,resize:a.resize}},n.getRandNumber=function(e,t,n){var i;return null==e&&(e=0),null==t&&(t=10),null==n&&(n=!0),i=Math.random()*(t-e)+e,n?Math.round(i):i},n.getDistance=function(e,t,n,i){return Math.sqrt(Math.pow(n-e,2)+Math.pow(i-t,2))},n.getMousePosition=function(t,n){var i;return"undefined"==typeof n&&(n=e("body")[0]),i=n.getBoundingClientRect(),{x:t.clientX-i.left,y:t.clientY-i.top}}}(jQuery);
+	</script>
 		
-		y = e.pageY - $('#menu').offset().top;
-	});
 
-	$('.hamburger, .menu-inner').on('mouseenter', function(){
-		$(this).parent().addClass('expanded');
-		menuExpanded = true;
-	});
 
-	$('.menu-inner').on('mouseleave', function(){
-		menuExpanded = false;
-		$(this).parent().removeClass('expanded');
-	});
-
-	function easeOutExpo(currentIteration, startValue, changeInValue, totalIterations) {
-		return changeInValue * (-Math.pow(2, -10 * currentIteration / totalIterations) + 1) + startValue;
-	}
-
-	var hoverZone = 150;
-	var expandAmount = 20;
-	
-	function svgCurve() {
-		if ((curveX > x-1) && (curveX < x+1) && (y >0)) {
-			xitteration = 0;
-		} else {
-			if (menuExpanded || y<0) {
-				targetX = 0;
-			} else {
-				xitteration = 0;
-				if (x > hoverZone  && (y >0)) {
-					targetX = 0;
-				} else {
-					targetX = -(((60+expandAmount)/100)*(x-hoverZone));
-				}			
-			}
-			xitteration++;
-		}
-
-		if ((curveY > y-1) && (curveY< (y - $('#menu').offset().top ))) {
-			yitteration = 0;
-		} else {
-			yitteration = 0;
-			yitteration++;	
-		}
+<script type="text/javascript">
+document.onmousewheel = function(){ stopWheel(); } 
+if(document.addEventListener){ 
+    document.addEventListener('DOMMouseScroll', stopWheel, false);
+}
  
-		curveX = easeOutExpo(xitteration, curveX, targetX-curveX, 100);
-		curveY = easeOutExpo(yitteration, curveY, y-curveY, 100);
+function stopWheel(e){
+    if(!e){ e = window.event; }
+    if(e.preventDefault) { e.preventDefault(); } 
+    e.returnValue = false; 
+}
 
-		var anchorDistance = 200;
-		var curviness = anchorDistance - 40;
-
-		var newCurve2 = "M60,"+height+"H0V0h60v"+(curveY-anchorDistance)+"c0,"+curviness+","+curveX+","+curviness+","+curveX+","+anchorDistance+"S60,"+(curveY)+",60,"+(curveY+(anchorDistance*2))+"V"+height+"z";
-
-		blobPath.attr('d', newCurve2);
-
-		blob.width(curveX+60);
-        if(y>15){       
-            hamburger.css('transform', 'translate('+curveX+'px, '+curveY+'px)');
-        } else{
-            hamburger.css('transform', 'translate('+0+'px, '+15+'px)');
-        }
-    $('h2').css('transform', 'translateY('+curveY+'px)');
-		window.requestAnimationFrame(svgCurve);
-
-	}
-
-	window.requestAnimationFrame(svgCurve);
-	
-});
 </script>
-	
+
+
+
+
+<script language=JavaScript>
+
+
+var message="Right-click is disabled";
+
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+
+</script>
+
+<script type="text/javascript"> 
+ 
+    function disableselect(e) { 
+        return false 
+    } 
+ 
+    function reEnable() { 
+        return true 
+    } 
+    //if IE4+ 
+    document.onselectstart = new Function("return false") 
+
+    if (window.sidebar) { 
+        document.onmousedown = disableselect 
+        document.onclick = reEnable 
+    } 
+</script>
+
+
+
+
 <script type="text/javascript">
 
 	$(".teacher").addClass('u388float');
